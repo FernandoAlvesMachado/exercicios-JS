@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logoInicio{
+    width: 50px;
+    height: 50px;
+}
+
+.sectionInicio{
+    gap: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+button{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    color: white;
+    padding: 10px 20px;
+    background: linear-gradient(233.24deg, #3F42F2 -36.34%, #BD00FF 82.07%);
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.menu{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gap{
+    gap: 10px;
+}
+
+.sectionSegundo{
+    gap: 90px;
+    /* padding-left: 33%; */
+    padding-right: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.FormularioPronto{
+    margin-top: 35px;
+    border-radius: 35px;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    background: radial-gradient(87.32% 87.32% at 82.28% 17.29%, #BD00FF 0%, #3F42F2 58.33%, #2225B3 100%)
+}
+
+.FormularioPronto > h1 , span{
+    color: white;
+}
+
+input{
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    padding: 20px 35px;
+}
