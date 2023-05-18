@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color: cornsilk;
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    
+}
+
+.item img{
+    margin-top: 20px;
+    border-radius: 50px;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.item h1,p{
+    margin: 3px;
+}
+
+.todosItens{
+    gap: 30px;
+}
